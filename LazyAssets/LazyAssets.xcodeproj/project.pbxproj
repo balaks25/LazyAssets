@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFB720CC2B8987DB00357E7D /* LazyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB720CB2B8987DB00357E7D /* LazyAssetsApp.swift */; };
-		BFB720CE2B8987DB00357E7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB720CD2B8987DB00357E7D /* ContentView.swift */; };
-		BFB720D02B8987DC00357E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB720CF2B8987DC00357E7D /* Assets.xcassets */; };
-		BFB720D32B8987DC00357E7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB720D22B8987DC00357E7D /* Preview Assets.xcassets */; };
+		BFD446D82B8EBCBF00221391 /* CommonImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */; };
+		BFD446F02B8EC85900221391 /* CommonAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */; };
+		BFD446F12B8EC85900221391 /* AssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */; };
+		BFD446F22B8EC85900221391 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446EF2B8EC7E300221391 /* BundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFB720C82B8987DB00357E7D /* LazyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB720CB2B8987DB00357E7D /* LazyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyAssetsApp.swift; sourceTree = "<group>"; };
-		BFB720CD2B8987DB00357E7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BFB720CF2B8987DC00357E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFB720D22B8987DC00357E7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD446C92B8EBCBE00221391 /* LazyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonImages.xcassets; sourceTree = "<group>"; };
+		BFD446DC2B8EBCBF00221391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAssetsManager.swift; sourceTree = "<group>"; };
+		BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsManager.swift; sourceTree = "<group>"; };
+		BFD446EF2B8EC7E300221391 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		BFD446F32B8EC87800221391 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFB720C52B8987DB00357E7D /* Frameworks */ = {
+		BFD446C62B8EBCBE00221391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,51 +34,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFB720BF2B8987DB00357E7D = {
+		BFD446C02B8EBCBE00221391 = {
 			isa = PBXGroup;
 			children = (
-				BFB720CA2B8987DB00357E7D /* LazyAssets */,
-				BFB720C92B8987DB00357E7D /* Products */,
+				BFD446CB2B8EBCBE00221391 /* Source */,
+				BFD446CA2B8EBCBE00221391 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFB720C92B8987DB00357E7D /* Products */ = {
+		BFD446CA2B8EBCBE00221391 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB720C82B8987DB00357E7D /* LazyAssets.app */,
+				BFD446C92B8EBCBE00221391 /* LazyAssets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFB720CA2B8987DB00357E7D /* LazyAssets */ = {
+		BFD446CB2B8EBCBE00221391 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BFB720CB2B8987DB00357E7D /* LazyAssetsApp.swift */,
-				BFB720CD2B8987DB00357E7D /* ContentView.swift */,
-				BFB720CF2B8987DC00357E7D /* Assets.xcassets */,
-				BFB720D12B8987DC00357E7D /* Preview Content */,
+				BFD446E22B8EBD1100221391 /* CommonAssetsPackage */,
 			);
-			path = LazyAssets;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		BFB720D12B8987DC00357E7D /* Preview Content */ = {
+		BFD446E22B8EBD1100221391 /* CommonAssetsPackage */ = {
 			isa = PBXGroup;
 			children = (
-				BFB720D22B8987DC00357E7D /* Preview Assets.xcassets */,
+				BFD446F32B8EC87800221391 /* Header.h */,
+				BFD446DC2B8EBCBF00221391 /* Info.plist */,
+				BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */,
+				BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */,
+				BFD446EF2B8EC7E300221391 /* BundleExtension.swift */,
+				BFD446E32B8EBD3400221391 /* Resources */,
 			);
-			path = "Preview Content";
+			path = CommonAssetsPackage;
+			sourceTree = "<group>";
+		};
+		BFD446E32B8EBD3400221391 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFB720C72B8987DB00357E7D /* LazyAssets */ = {
+		BFD446C82B8EBCBE00221391 /* LazyAssets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFB720D62B8987DC00357E7D /* Build configuration list for PBXNativeTarget "LazyAssets" */;
+			buildConfigurationList = BFD446DF2B8EBCBF00221391 /* Build configuration list for PBXNativeTarget "LazyAssets" */;
 			buildPhases = (
-				BFB720C42B8987DB00357E7D /* Sources */,
-				BFB720C52B8987DB00357E7D /* Frameworks */,
-				BFB720C62B8987DB00357E7D /* Resources */,
+				BFD446C52B8EBCBE00221391 /* Sources */,
+				BFD446C62B8EBCBE00221391 /* Frameworks */,
+				BFD446C72B8EBCBE00221391 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +96,25 @@
 			);
 			name = LazyAssets;
 			productName = LazyAssets;
-			productReference = BFB720C82B8987DB00357E7D /* LazyAssets.app */;
+			productReference = BFD446C92B8EBCBE00221391 /* LazyAssets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFB720C02B8987DB00357E7D /* Project object */ = {
+		BFD446C12B8EBCBE00221391 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					BFB720C72B8987DB00357E7D = {
+					BFD446C82B8EBCBE00221391 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = BFB720C32B8987DB00357E7D /* Build configuration list for PBXProject "LazyAssets" */;
+			buildConfigurationList = BFD446C42B8EBCBE00221391 /* Build configuration list for PBXProject "LazyAssets" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +122,42 @@
 				en,
 				Base,
 			);
-			mainGroup = BFB720BF2B8987DB00357E7D;
-			productRefGroup = BFB720C92B8987DB00357E7D /* Products */;
+			mainGroup = BFD446C02B8EBCBE00221391;
+			productRefGroup = BFD446CA2B8EBCBE00221391 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFB720C72B8987DB00357E7D /* LazyAssets */,
+				BFD446C82B8EBCBE00221391 /* LazyAssets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFB720C62B8987DB00357E7D /* Resources */ = {
+		BFD446C72B8EBCBE00221391 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB720D32B8987DC00357E7D /* Preview Assets.xcassets in Resources */,
-				BFB720D02B8987DC00357E7D /* Assets.xcassets in Resources */,
+				BFD446D82B8EBCBF00221391 /* CommonImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFB720C42B8987DB00357E7D /* Sources */ = {
+		BFD446C52B8EBCBE00221391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB720CE2B8987DB00357E7D /* ContentView.swift in Sources */,
-				BFB720CC2B8987DB00357E7D /* LazyAssetsApp.swift in Sources */,
+				BFD446F02B8EC85900221391 /* CommonAssetsManager.swift in Sources */,
+				BFD446F12B8EC85900221391 /* AssetsManager.swift in Sources */,
+				BFD446F22B8EC85900221391 /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFB720D42B8987DC00357E7D /* Debug */ = {
+		BFD446DD2B8EBCBF00221391 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		BFB720D52B8987DC00357E7D /* Release */ = {
+		BFD446DE2B8EBCBF00221391 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,22 +276,22 @@
 			};
 			name = Release;
 		};
-		BFB720D72B8987DC00357E7D /* Debug */ = {
+		BFD446E02B8EBCBF00221391 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LazyAssets/Preview Content\"";
 				DEVELOPMENT_TEAM = 95R25NVAKJ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = LazyAssets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,22 +305,22 @@
 			};
 			name = Debug;
 		};
-		BFB720D82B8987DC00357E7D /* Release */ = {
+		BFD446E12B8EBCBF00221391 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LazyAssets/Preview Content\"";
 				DEVELOPMENT_TEAM = 95R25NVAKJ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = LazyAssets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFB720C32B8987DB00357E7D /* Build configuration list for PBXProject "LazyAssets" */ = {
+		BFD446C42B8EBCBE00221391 /* Build configuration list for PBXProject "LazyAssets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB720D42B8987DC00357E7D /* Debug */,
-				BFB720D52B8987DC00357E7D /* Release */,
+				BFD446DD2B8EBCBF00221391 /* Debug */,
+				BFD446DE2B8EBCBF00221391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFB720D62B8987DC00357E7D /* Build configuration list for PBXNativeTarget "LazyAssets" */ = {
+		BFD446DF2B8EBCBF00221391 /* Build configuration list for PBXNativeTarget "LazyAssets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB720D72B8987DC00357E7D /* Debug */,
-				BFB720D82B8987DC00357E7D /* Release */,
+				BFD446E02B8EBCBF00221391 /* Debug */,
+				BFD446E12B8EBCBF00221391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFB720C02B8987DB00357E7D /* Project object */;
+	rootObject = BFD446C12B8EBCBE00221391 /* Project object */;
 }
