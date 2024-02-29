@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFD446D82B8EBCBF00221391 /* CommonImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */; };
-		BFD446F02B8EC85900221391 /* CommonAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */; };
-		BFD446F12B8EC85900221391 /* AssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */; };
-		BFD446F22B8EC85900221391 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD446EF2B8EC7E300221391 /* BundleExtension.swift */; };
+		BFF7AC142B9016100020B8F3 /* LazyAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF7AC132B9016100020B8F3 /* LazyAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF7AC1D2B9016E60020B8F3 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF7AC1A2B9016E60020B8F3 /* BundleExtension.swift */; };
+		BFF7AC1E2B9016E60020B8F3 /* AssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF7AC1B2B9016E60020B8F3 /* AssetsManager.swift */; };
+		BFF7AC1F2B9016E60020B8F3 /* CommonAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF7AC1C2B9016E60020B8F3 /* CommonAssetsManager.swift */; };
+		BFF7AC212B9017060020B8F3 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = BFF7AC202B9017060020B8F3 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFD446C92B8EBCBE00221391 /* LazyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonImages.xcassets; sourceTree = "<group>"; };
-		BFD446DC2B8EBCBF00221391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAssetsManager.swift; sourceTree = "<group>"; };
-		BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsManager.swift; sourceTree = "<group>"; };
-		BFD446EF2B8EC7E300221391 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
-		BFD446F32B8EC87800221391 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BFF7AC102B9016100020B8F3 /* LazyAssets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LazyAssets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF7AC132B9016100020B8F3 /* LazyAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LazyAssets.h; sourceTree = "<group>"; };
+		BFF7AC1A2B9016E60020B8F3 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BundleExtension.swift; path = Package/CommonAssetsPackage/BundleExtension.swift; sourceTree = "<group>"; };
+		BFF7AC1B2B9016E60020B8F3 /* AssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssetsManager.swift; path = Package/CommonAssetsPackage/AssetsManager.swift; sourceTree = "<group>"; };
+		BFF7AC1C2B9016E60020B8F3 /* CommonAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonAssetsManager.swift; path = Package/CommonAssetsPackage/CommonAssetsManager.swift; sourceTree = "<group>"; };
+		BFF7AC202B9017060020B8F3 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = Package/CommonAssetsPackage/Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFD446C62B8EBCBE00221391 /* Frameworks */ = {
+		BFF7AC0D2B9016100020B8F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,61 +34,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFD446C02B8EBCBE00221391 = {
+		BFF7AC062B9016100020B8F3 = {
 			isa = PBXGroup;
 			children = (
-				BFD446CB2B8EBCBE00221391 /* Source */,
-				BFD446CA2B8EBCBE00221391 /* Products */,
+				BFF7AC202B9017060020B8F3 /* Resources */,
+				BFF7AC1B2B9016E60020B8F3 /* AssetsManager.swift */,
+				BFF7AC1A2B9016E60020B8F3 /* BundleExtension.swift */,
+				BFF7AC1C2B9016E60020B8F3 /* CommonAssetsManager.swift */,
+				BFF7AC122B9016100020B8F3 /* LazyAssets */,
+				BFF7AC112B9016100020B8F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFD446CA2B8EBCBE00221391 /* Products */ = {
+		BFF7AC112B9016100020B8F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFD446C92B8EBCBE00221391 /* LazyAssets.app */,
+				BFF7AC102B9016100020B8F3 /* LazyAssets.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFD446CB2B8EBCBE00221391 /* Source */ = {
+		BFF7AC122B9016100020B8F3 /* LazyAssets */ = {
 			isa = PBXGroup;
 			children = (
-				BFD446E22B8EBD1100221391 /* CommonAssetsPackage */,
+				BFF7AC132B9016100020B8F3 /* LazyAssets.h */,
 			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		BFD446E22B8EBD1100221391 /* CommonAssetsPackage */ = {
-			isa = PBXGroup;
-			children = (
-				BFD446F32B8EC87800221391 /* Header.h */,
-				BFD446DC2B8EBCBF00221391 /* Info.plist */,
-				BFD446ED2B8EC76F00221391 /* CommonAssetsManager.swift */,
-				BFD446EE2B8EC7AB00221391 /* AssetsManager.swift */,
-				BFD446EF2B8EC7E300221391 /* BundleExtension.swift */,
-				BFD446E32B8EBD3400221391 /* Resources */,
-			);
-			path = CommonAssetsPackage;
-			sourceTree = "<group>";
-		};
-		BFD446E32B8EBD3400221391 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BFD446D72B8EBCBF00221391 /* CommonImages.xcassets */,
-			);
-			path = Resources;
+			path = LazyAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BFF7AC0B2B9016100020B8F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF7AC142B9016100020B8F3 /* LazyAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		BFD446C82B8EBCBE00221391 /* LazyAssets */ = {
+		BFF7AC0F2B9016100020B8F3 /* LazyAssets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFD446DF2B8EBCBF00221391 /* Build configuration list for PBXNativeTarget "LazyAssets" */;
+			buildConfigurationList = BFF7AC172B9016100020B8F3 /* Build configuration list for PBXNativeTarget "LazyAssets" */;
 			buildPhases = (
-				BFD446C52B8EBCBE00221391 /* Sources */,
-				BFD446C62B8EBCBE00221391 /* Frameworks */,
-				BFD446C72B8EBCBE00221391 /* Resources */,
+				BFF7AC0B2B9016100020B8F3 /* Headers */,
+				BFF7AC0C2B9016100020B8F3 /* Sources */,
+				BFF7AC0D2B9016100020B8F3 /* Frameworks */,
+				BFF7AC0E2B9016100020B8F3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,25 +91,24 @@
 			);
 			name = LazyAssets;
 			productName = LazyAssets;
-			productReference = BFD446C92B8EBCBE00221391 /* LazyAssets.app */;
-			productType = "com.apple.product-type.application";
+			productReference = BFF7AC102B9016100020B8F3 /* LazyAssets.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFD446C12B8EBCBE00221391 /* Project object */ = {
+		BFF7AC072B9016100020B8F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					BFD446C82B8EBCBE00221391 = {
+					BFF7AC0F2B9016100020B8F3 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = BFD446C42B8EBCBE00221391 /* Build configuration list for PBXProject "LazyAssets" */;
+			buildConfigurationList = BFF7AC0A2B9016100020B8F3 /* Build configuration list for PBXProject "LazyAssets" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,42 +116,42 @@
 				en,
 				Base,
 			);
-			mainGroup = BFD446C02B8EBCBE00221391;
-			productRefGroup = BFD446CA2B8EBCBE00221391 /* Products */;
+			mainGroup = BFF7AC062B9016100020B8F3;
+			productRefGroup = BFF7AC112B9016100020B8F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFD446C82B8EBCBE00221391 /* LazyAssets */,
+				BFF7AC0F2B9016100020B8F3 /* LazyAssets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFD446C72B8EBCBE00221391 /* Resources */ = {
+		BFF7AC0E2B9016100020B8F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD446D82B8EBCBF00221391 /* CommonImages.xcassets in Resources */,
+				BFF7AC212B9017060020B8F3 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFD446C52B8EBCBE00221391 /* Sources */ = {
+		BFF7AC0C2B9016100020B8F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD446F02B8EC85900221391 /* CommonAssetsManager.swift in Sources */,
-				BFD446F12B8EC85900221391 /* AssetsManager.swift in Sources */,
-				BFD446F22B8EC85900221391 /* BundleExtension.swift in Sources */,
+				BFF7AC1D2B9016E60020B8F3 /* BundleExtension.swift in Sources */,
+				BFF7AC1E2B9016E60020B8F3 /* AssetsManager.swift in Sources */,
+				BFF7AC1F2B9016E60020B8F3 /* CommonAssetsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFD446DD2B8EBCBF00221391 /* Debug */ = {
+		BFF7AC152B9016100020B8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,6 +185,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -217,10 +212,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BFD446DE2B8EBCBF00221391 /* Release */ = {
+		BFF7AC162B9016100020B8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,6 +251,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -273,61 +271,67 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BFD446E02B8EBCBF00221391 /* Debug */ = {
+		BFF7AC182B9016100020B8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 95R25NVAKJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LazyAssets/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.infoview.LazyAssets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFD446E12B8EBCBF00221391 /* Release */ = {
+		BFF7AC192B9016100020B8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 95R25NVAKJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LazyAssets/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.infoview.LazyAssets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFD446C42B8EBCBE00221391 /* Build configuration list for PBXProject "LazyAssets" */ = {
+		BFF7AC0A2B9016100020B8F3 /* Build configuration list for PBXProject "LazyAssets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFD446DD2B8EBCBF00221391 /* Debug */,
-				BFD446DE2B8EBCBF00221391 /* Release */,
+				BFF7AC152B9016100020B8F3 /* Debug */,
+				BFF7AC162B9016100020B8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFD446DF2B8EBCBF00221391 /* Build configuration list for PBXNativeTarget "LazyAssets" */ = {
+		BFF7AC172B9016100020B8F3 /* Build configuration list for PBXNativeTarget "LazyAssets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFD446E02B8EBCBF00221391 /* Debug */,
-				BFD446E12B8EBCBF00221391 /* Release */,
+				BFF7AC182B9016100020B8F3 /* Debug */,
+				BFF7AC192B9016100020B8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFD446C12B8EBCBE00221391 /* Project object */;
+	rootObject = BFF7AC072B9016100020B8F3 /* Project object */;
 }
